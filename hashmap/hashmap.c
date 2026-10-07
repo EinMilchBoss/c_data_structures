@@ -18,7 +18,7 @@ static const size_t HASHMAP_INITIAL_BINS_COUNT = 16;
  */
 static const double HASHMAP_INCREASE_BINS_LOAD_THRESHOLD = 0.75;
 
-static void hashmapbinnode_delete(struct hashmapbinnode *hmb);
+static void hashmapbinnode_delete(struct hashmapbinnode *hmbn);
 
 static void hashmapbinnode_delete(struct hashmapbinnode *hmbn)
 {
