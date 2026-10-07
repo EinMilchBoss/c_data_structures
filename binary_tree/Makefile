@@ -1,2 +1,2 @@
 hashmap:
-	gcc -O3 main.c bintree.c -o program
+	gcc -O3 main.c bst.c -o program
