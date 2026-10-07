@@ -123,6 +123,7 @@ bool bst_rmv(struct bst *bst, int value)
     }
     else if ((*current)->left || (*current)->right)
     {
+        // Remove the node and fill the gap with the only child.
         struct bstnode *removed = *current;
 
         if (removed->left)
